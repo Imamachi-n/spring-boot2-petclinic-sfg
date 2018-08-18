@@ -43,11 +43,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-                    <checkModificationExcludes>
-                        <checkModificationExclude>pom.xml</checkModificationExclude>
-                        <checkModificationExclude>pet-clinic-web/pom.xml</checkModificationExclude>
-                        <checkModificationExclude>pet-clinic-data/pom.xml</checkModificationExclude>
-                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
